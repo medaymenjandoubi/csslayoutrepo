@@ -1,0 +1,140 @@
+.containerid{
+    display: grid;
+    justify-content: center; 
+    grid-template-rows: auto;
+    padding-top: 50px;
+}
+.docplannerlogo {
+    text-align: center;
+}
+.containerdescription {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 100px;
+}
+.descriptionone {
+    width: 550px;
+    justify-self: end;
+}
+.descriptiontwo {
+    width: 550px;
+}
+.titre {
+    color: #00b39b;
+}
+.sectionone {
+    background-color: #00b39b;
+    border-radius: 15px;
+    text-align: center;
+}
+.sectiontwo {
+    background-color: blueviolet;
+    border-radius: 15px;
+    text-align: center;
+}
+.sectionthree {
+    background: black;
+    border-radius: 15px;
+    text-align: center;
+}
+div > h4 {
+    color: white;
+}
+div > p {
+    font-size: 1.25em;
+}
+.sectionone,.sectiontwo,.sectionthree > p {
+    color: #ffffff;
+}
+.dd-menu {
+    position: absolute;
+    top: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 0;
+    margin: 2px 0 0 0;
+    box-shadow: 0 0 6px 0 rgba(0,0,0,0.1);
+    background-color: #ffffff;
+    list-style-type: none;
+  }
+.dropbtn {
+  background-color: transparent;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  text-decoration: underline;
+  font-size: large;
+  text-align-last:justify ;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: white}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.flexycontainer {
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    width: 1000px;
+    margin: auto;
+    column-gap: 50px;
+    height: 400px;
+    padding-top: 50px;
+}
+/* .sectionone :hover,.sectiontwo :hover,.sectionthree :hover {
+    opacity: ;
+} */
+.image{
+    -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+    filter: grayscale(100%); /* Firefox */
+}
+.image:hover {
+    -webkit-filter: grayscale(0%); /* Chrome, Safari, Opera */
+    filter: grayscale(0%); /* Firefox */ }
+.imagesvg {
+    fill: gray;
+}
+.imagesvg:hover {
+    fill: #3d83df;
+}
+.containerlogoparagraph {
+    margin: 2.5rem auto 3.125rem;
+    display :flex ;
+    padding: 20px;
+    padding-top: 50px;
+}
+.logocontainer {
+  width: 67%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-right: 40px;
+}
+.containerlogoparagraph>h3 {
+    width: 33%;
+    color: #00b39b;
+    text-align: center;
+}
